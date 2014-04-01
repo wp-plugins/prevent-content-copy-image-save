@@ -1,5 +1,6 @@
 === Prevent Content Copy & Image Save ===
 Contributors: fakhris 
+Donate link: http://www.clogica.com/donations.htm
 Tags: Content,Copy,Image,Save
 Requires at least: 3.0.1
 Tested up to: 3.8.1
@@ -15,10 +16,11 @@ You can see more about this plugin at <a target="_blank" href="http://www.clogic
 Prevent Content Copy &amp; Image Save</a>
 
 == Installation ==
-
-1.  Go to the wordpress control panel and go to “Plugins” menu and press the button “Add New”
-2.  Go to the tab “Upload” and choose the file “Prevent\_Content\_Copy\_and\_Image_Save.zip”, click the button “Upload” to get the file uploaded.
-3.  Lockup the plugin, and click “Activate” to get it active.
-4.  Go to the Options page and configure the plugin.
+<ul>
+<li>Go to the wordpress control panel and go to "Plugins" menu and press the button "Add New".</li>
+<li>Go to the tab "Upload" and choose the file "Prevent_Content_Copy_and_Image_Save.zip", click the button "Upload" to get the file uploaded.</li>
+<li>Lockup the plugin, and click "Activate" to get it active.</li>
+<li>Go to the Options page and configure the plugin.</li>
+</ul>
 == Screenshots ==
 1. Screenshot shows all options available in control panel
