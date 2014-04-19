@@ -3,7 +3,7 @@ Contributors: fakhris
 Donate link: http://www.clogica.com/donations.htm
 Tags: Content,Copy,Image,Save,protection,protect,content protection
 Requires at least: 3.0.1
-Tested up to: 3.8.1
+Tested up to: 3.9
 Stable tag: trunk
 
 This plugin is for content protection from copying to other sites, it prevents content and protect from select and copy and also prevents images saving from context menu
