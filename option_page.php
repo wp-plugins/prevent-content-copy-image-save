@@ -5,18 +5,65 @@
 	if(isset($_POST['image_save_msg']))
 	{
 
+		if(array_key_exists('select',$_POST))
 		$options['select']=intval($_POST['select']);
+		else
+		$options['select']=0;
+		
+		if(array_key_exists('saveimg',$_POST))
 		$options['saveimg']=intval($_POST['saveimg']);
+		else
+		$options['saveimg']=0;
+		
+		if(array_key_exists('CTRLA',$_POST))
 		$options['CTRLA']=intval($_POST['CTRLA']);
+		else
+		$options['CTRLA']=0;
+		
+		if(array_key_exists('CTRLC',$_POST))
 		$options['CTRLC']=intval($_POST['CTRLC']);
+		else
+		$options['CTRLC']=0;
+		
+		if(array_key_exists('CTRLX',$_POST))
 		$options['CTRLX']=intval($_POST['CTRLX']);
+		else
+		$options['CTRLX']=0;
+		
+		if(array_key_exists('CTRLV',$_POST))
 		$options['CTRLV']=intval($_POST['CTRLV']);
+		else
+		$options['CTRLV']=0;
+		
+		if(array_key_exists('CTRLS',$_POST))
 		$options['CTRLS']=intval($_POST['CTRLS']);
+		else
+		$options['CTRLS']=0;
+		
+		if(array_key_exists('cmenu',$_POST))
 		$options['cmenu']=intval($_POST['cmenu']);
+		else
+		$options['cmenu']=0;
+		
+		
+		if(array_key_exists('CTRLINPUT',$_POST))
 		$options['CTRLINPUT']=intval($_POST['CTRLINPUT']);
+		else
+		$options['CTRLINPUT']=0;
+		
+		
+		if(array_key_exists('image_save_msg',$_POST))
 		$options['image_save_msg']=$_POST['image_save_msg'];
+		else
+		$options['image_save_msg']='';
+		
+		
+		if(array_key_exists('no_menu_msg',$_POST))
 		$options['no_menu_msg']=$_POST['no_menu_msg'];
-				
+		else
+		$options['no_menu_msg']='';
+		
+		
 		PCS_update_my_options($options);
 		$saved_options="Your Settings Saved Successfully!";
 		PCS_option_msg($saved_options);
@@ -75,3 +122,7 @@
 </script>
 
 </form>
+<br/>
+<a target="_blank" href="http://www.clogica.com/product/wp-content-protection-manager">
+<img style="border-style:solid; border-width:1px;" border="1" width="616" height="134" alt="Turn Thieves into Money" src="http://www.clogica.com/uploads/2014/05/ad.jpg">
+</a>

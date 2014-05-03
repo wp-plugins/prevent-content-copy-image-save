@@ -1,4 +1,4 @@
-=== Prevent Content Copy & Image Save ===
+=== Prevent Content Copy & Image Save Protection ===
 Contributors: fakhris 
 Donate link: http://www.clogica.com/donations.htm
 Tags: Content,Copy,Image,Save,protection,protect,content protection
@@ -18,7 +18,7 @@ Prevent Content Copy &amp; Image Save</a>
 == Installation ==
 <ul>
 <li>Go to the wordpress control panel and go to "Plugins" menu and press the button "Add New".</li>
-<li>Go to the tab "Upload" and choose the file "Prevent_Content_Copy_and_Image_Save.zip", click the button "Upload" to get the file uploaded.</li>
+<li>Go to the tab "Upload" and choose the file "Prevent_Content_Copy_and_Image_Save_Protection.zip", click the button "Upload" to get the file uploaded.</li>
 <li>Lockup the plugin, and click "Activate" to get it active.</li>
 <li>Go to the Options page and configure the plugin.</li>
 </ul>

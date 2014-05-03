@@ -1,15 +1,12 @@
 <?php
 /*
-Plugin Name: Prevent Content Copy & Image Save
+Plugin Name: Prevent Content Copy & Image Save Protection
 Plugin URI: http://codecanyon.net/user/fakhri/portfolio
 Description: This plugin protects your content from steeling, it prevents content select and copy and also prevents image saving from context menu.
 Author: Fakhri Alsadi
-Version: 1.0
+Version: 1.2
 Author URI: http://www.clogica.com
 */
-
-session_start();
-
 define( 'PCS_OPTIONS', 'pcs-options-group' );
 
 require_once ('functions.php');
@@ -69,8 +66,6 @@ $options= PCS_my_options();
 			else
 				$keys= $keys . ' || key == 83 ';
 		
-		
-		
 	}
 	
 	$script=" <script type='text/javascript'>
@@ -105,11 +100,13 @@ $options= PCS_my_options();
 	if($options['select']==1)
 	$script = $script . "          
 	function disableselect(e)
-	{	if(e.target.nodeName !='INPUT' && e.target.nodeName !='TEXTAREA')
+	{	
+	    if(e.target.nodeName !='INPUT' && e.target.nodeName !='TEXTAREA' && e.target.nodeName !='HTML' )
 		return false;
 	}
 	function disableselect_ie()
-	{	if(window.event.srcElement.nodeName !='INPUT' && window.event.srcElement.nodeName !='TEXTAREA')
+	{	    
+    	if(window.event.srcElement.nodeName !='INPUT' && window.event.srcElement.nodeName !='TEXTAREA')
 		return false;
 	}	
 	function reEnable()
@@ -215,7 +212,7 @@ $options= PCS_my_options();
 //----------------------------------------------------
 
 function PCS_admin_menu() {
-	add_options_page('Prevent Content Copy & Image Save', 'Prevent Content Copy & Image Save', 10, basename(__FILE__), 'PCS_options_menu'  );
+	add_options_page('Prevent Content Copy & Image Save', 'Prevent Content Copy & Image Save', 'manage_options', basename(__FILE__), 'PCS_options_menu'  );
 }
 
 //----------------------------------------------------
