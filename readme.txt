@@ -1,7 +1,7 @@
 ===  Content Copy Protection & Prevent Image Save  ===
 Contributors: fakhris 
 Donate link: http://www.clogica.com/donations.htm
-Tags: Content,Copy,Image,Save,protection,protect,content protection
+Tags: Content,Copy,Image,Save,protection,protect,content protection,copy protection, content copy protection,prevent
 Requires at least: 3.0.1
 Tested up to: 3.9
 Stable tag: trunk
