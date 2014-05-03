@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Prevent Content Copy & Image Save Protection
+Plugin Name: Content Copy Protection & Prevent Image Save
 Plugin URI: http://codecanyon.net/user/fakhri/portfolio
 Description: This plugin protects your content from steeling, it prevents content select and copy and also prevents image saving from context menu.
 Author: Fakhri Alsadi

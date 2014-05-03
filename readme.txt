@@ -1,4 +1,4 @@
-=== Prevent Content Copy & Image Save Protection ===
+===  Content Copy Protection & Prevent Image Save  ===
 Contributors: fakhris 
 Donate link: http://www.clogica.com/donations.htm
 Tags: Content,Copy,Image,Save,protection,protect,content protection
