@@ -212,7 +212,7 @@ $options= PCS_my_options();
 //----------------------------------------------------
 
 function PCS_admin_menu() {
-	add_options_page('Prevent Content Copy & Image Save', 'Prevent Content Copy & Image Save', 'manage_options', basename(__FILE__), 'PCS_options_menu'  );
+	add_options_page('Content Copy Protection & Prevent Image Save', 'Content Copy Protection & Prevent Image Save', 'manage_options', basename(__FILE__), 'PCS_options_menu'  );
 }
 
 //----------------------------------------------------
@@ -222,7 +222,7 @@ function PCS_options_menu() {
 			wp_die( __('You do not have sufficient permissions to access this page.') );
 		}
 		
-	echo '<div class="wrap"><h2>Prevent Content Copy and Image Save</h2><br/>';
+	echo '<div class="wrap"><h2>Content Copy Protection & Prevent Image Save</h2><br/>';
 	include "option_page.php";
 	echo '</div>';
 }
