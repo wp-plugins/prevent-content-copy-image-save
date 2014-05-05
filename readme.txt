@@ -12,7 +12,19 @@ Content Copy Protection & Prevent Image Save is a plugin for content protection 
 
 As you know, the duplicate content can decrease your blog ranking in search engines, if someone copied your content, it will marked as duplicate content!, this plugin is for content protection and can protects your content from steeling, it prevents content select and copy and also prevents images saving from context menu, install this plugin to have a unique content and high page rank.
 
-You can see more about Content Copy Protection & Prevent Image Save at <a target="_blank" href="http://www.clogica.com/prevent-content-copy-image-save-wordpress-plugin.htm">Content Copy Protection & Prevent Image Save</a>
+<h3>You can see the PRO version to get advanced protection:
+</h3>
+<ul>
+<li>Protect you content from selection and copy.</li>
+<li>No one can save images from site.</li>
+<li>No right click and context menu.</li>
+<li>Show alert message, Image Ad or HTML Ad on save images or right click.</li>
+<li>Disable the following keys&nbsp; CTRL+A, CTRL+C, CTRL+X,CTRL+S or CTRL+V.</li>
+<li>Advaced and easy to use control panel.</li>
+</ul>
+<p>By showing ads, turn thieves into money....
+<a target="_blank" href="http://www.clogica.com/product/wp-content-protection-manager">click here to see details and live preview</a></p>
+
 
 == Installation ==
 <ul>
