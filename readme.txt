@@ -15,9 +15,9 @@ As you know, the duplicate content can decrease your blog ranking in search engi
 <h3>You can see the PRO version to get advanced protection:
 </h3>
 <ul>
-<li>Protect you content from selection and copy.</li>
-<li>No one can save images from site.</li>
-<li>No right click and context menu.</li>
+<li>Protect your content from selection and copy.</li>
+<li>No one can save images from your site.</li>
+<li>No right click or context menu.</li>
 <li>Show alert message, Image Ad or HTML Ad on save images or right click.</li>
 <li>Disable the following keys&nbsp; CTRL+A, CTRL+C, CTRL+X,CTRL+S or CTRL+V.</li>
 <li>Advaced and easy to use control panel.</li>
