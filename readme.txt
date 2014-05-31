@@ -32,5 +32,9 @@ As you know, the duplicate content can decrease your blog ranking in search engi
 <li>Lockup the plugin, and click "Activate" to get it active.</li>
 <li>Go to the Options page and configure the plugin.</li>
 </ul>
+
+<p>view this posts if you want more details about installing plugins: <a href="http://www.wpfasthelp.com/how-to-install-wordpress-plugins.htm">
+http://www.wpfasthelp.com/how-to-install-wordpress-plugins.htm</a></p>
+
 == Screenshots ==
 1. Screenshot shows all options available in control panel
