@@ -3,7 +3,7 @@ Contributors: fakhris
 Donate link: http://www.clogica.com/donations.htm
 Tags: content, content copy protection, content protection, copy protection, image protect, image protection, no right click, prevent copy, protect blog, secure, theft
 Requires at least: 3.0.1
-Tested up to: 4.1
+Tested up to: 4.1.1
 Stable tag: trunk
 Content Copy Protection & Prevent Image Save is a plugin for content protection from copying to other sites, it prevents content and protect from select and copy and also prevents images saving from context menu
 
