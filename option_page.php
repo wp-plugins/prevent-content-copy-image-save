@@ -124,5 +124,5 @@
 </form>
 <br/>
 <a target="_blank" href="http://www.clogica.com/product/wp-content-protection-manager">
-<img style="border-style:solid; border-width:1px;" border="1" width="616" height="134" alt="Turn Thieves into Money" src="http://www.clogica.com/uploads/2014/05/ad.jpg">
+<img style="border-style:solid; border-width:1px;" border="1" alt="Turn Thieves into Money" src="<?=get_url_path()?>/images/ad1.jpg">
 </a>
