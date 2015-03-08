@@ -1,4 +1,4 @@
-<?
+<?php
 
 	$options= PCS_my_options();
 	
@@ -110,19 +110,19 @@
 
 
 <script type="text/javascript">
-	document.getElementById('select').checked=<? if($options['select']) echo 'true'; else echo 'false'?>;
-	document.getElementById('saveimg').checked=<? if($options['saveimg']) echo 'true'; else echo 'false'?>;
-	document.getElementById('CTRLA').checked=<? if($options['CTRLA']) echo 'true'; else echo 'false'?>;
-	document.getElementById('CTRLC').checked=<? if($options['CTRLC']) echo 'true'; else echo 'false'?>;
-	document.getElementById('CTRLX').checked=<? if($options['CTRLX']) echo 'true'; else echo 'false'?>;
-	document.getElementById('CTRLV').checked=<? if($options['CTRLV']) echo 'true'; else echo 'false'?>;
-	document.getElementById('CTRLS').checked=<? if($options['CTRLS']) echo 'true'; else echo 'false'?>;
-	document.getElementById('cmenu').checked=<? if($options['cmenu']) echo 'true'; else echo 'false'?>;
-	document.getElementById('CTRLINPUT').checked=<? if($options['CTRLINPUT']) echo 'true'; else echo 'false'?>;
+	document.getElementById('select').checked=<?php if($options['select']) echo 'true'; else echo 'false'?>;
+	document.getElementById('saveimg').checked=<?php if($options['saveimg']) echo 'true'; else echo 'false'?>;
+	document.getElementById('CTRLA').checked=<?php if($options['CTRLA']) echo 'true'; else echo 'false'?>;
+	document.getElementById('CTRLC').checked=<?php if($options['CTRLC']) echo 'true'; else echo 'false'?>;
+	document.getElementById('CTRLX').checked=<?php if($options['CTRLX']) echo 'true'; else echo 'false'?>;
+	document.getElementById('CTRLV').checked=<?php if($options['CTRLV']) echo 'true'; else echo 'false'?>;
+	document.getElementById('CTRLS').checked=<?php if($options['CTRLS']) echo 'true'; else echo 'false'?>;
+	document.getElementById('cmenu').checked=<?php if($options['cmenu']) echo 'true'; else echo 'false'?>;
+	document.getElementById('CTRLINPUT').checked=<?php if($options['CTRLINPUT']) echo 'true'; else echo 'false'?>;
 </script>
 
 </form>
 <br/>
 <a target="_blank" href="http://www.clogica.com/product/wp-content-protection-manager">
-<img style="border-style:solid; border-width:1px;" border="1" alt="Turn Thieves into Money" src="<?=get_url_path()?>/images/ad1.jpg">
+<img style="border-style:solid; border-width:1px;" border="1" alt="Turn Thieves into Money" src="<?php echo plugin_dir_url( __FILE__ )?>/images/ad1.jpg">
 </a>
